@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul > li {
+    list-style: none;
+}
+
+/* 可展开*/
+.switch-open {
+    margin-left: -12px;
+    border: 6px solid transparent;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-top-color: black;
+
+}
+
+/* 展开完毕*/
+.switch-close {
+    margin-left: -12px;
+    border: 6px solid transparent;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-left-color: black;
+    margin-bottom: 2px;
+
+}
+
+/* 改变CheckBox样式*/
+input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+
+input[type='checkbox']:before {
+    color: transparent;
+}
+
+input[type=checkbox]:checked {
+    background-color: #30add6;
+}
+
+input[type=checkbox]:checked:before {
+    color: white;
+    font-weight: bold;
+}
+
+.space{
+    height:16px;
+    line-height:16px;
+    display:block;
+    padding:0 0 0 16px;
+    margin:0 0 5px;
+}
+
+.space.full{
+    padding:0;
+}
+
+.space .name{
+    color: rgb(62, 13, 247);
+}
+
+.space .dot{
+    padding:0 5px 0 2px;
+}
