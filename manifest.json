@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "wps调试工具",
+	"version": "1.0",
+	"description": "wps调试工具",
+	"author": "songjing",
+	"icons": {
+		"48": "images/icon2.png",
+		"128": "images/icon2.png"
+	},
+	"permissions": [
+		"contextMenus", 
+		"tabs",
+		"notifications",
+		"webRequest",
+		"webRequestBlocking",
+		"storage",
+		"http://*/*",
+		"https://*/*"
+	],
+	"devtools_page": "devtools.html"
+}
